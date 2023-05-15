@@ -43,6 +43,9 @@ const resolvers = {
     typeDefs,
     resolvers,
     csrfPrevention: true,
+    cors: {
+        allowedHeaders:['']
+    },
     cache: 'bounded',
     /**
      * What's up with this embed: true option?
